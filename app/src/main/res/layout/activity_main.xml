@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+
+    android:orientation="vertical"
+
+    tools:context=".MainActivity"
+    >
+
+    <com.dd.morphingbutton.MorphingButton
+        android:id="@+id/addImages"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="select_images_text"
+        />
+
+    <com.dd.morphingbutton.MorphingButton
+        android:id="@+id/pdfOpen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="open_pdf_text"
+
+        android:visibility="gone"/>
+
+    <com.dd.morphingbutton.MorphingButton
+        android:id="@+id/pdfCreate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="create_pdf_text"
+        />
+
+</LinearLayout>
